@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input{
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  padding: 5px 10px ;
+}
+
+div {
+  margin: 1rem 10rem;
+}
+
+aside {
+  display: flex;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+  padding: 1rem;
+}
+
+li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #323232;
+  justify-content: center;
+  margin: 15px 0px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
